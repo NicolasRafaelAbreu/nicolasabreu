@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191c32;;
+}
+#conteiner{
+    text-align: center;
+    margin-top: 15%;
+}
+#text{
+    font-size: 300%;
+    color: aqua;
+}
+#textDos{
+    font-size: 200%;
+    color: aliceblue;
+}
+#Empecemos{
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    font-size: 100%;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+#Empecemos:hover{
+    background-color: rgb(15, 255, 123);
+    border-radius: 8px;
+    transition: ease-in .4s;
+}
+#textEmpecemos{
+    color: black;
+    text-decoration-line: none;
+    font-size: 140%;
+    padding: 15px;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.brand span{
+    color: aqua;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu .active{
+    color: aqua;
+}
+.menu a:hover{
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in .4s;
+}
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    color: #fff;
+}
+.titulo{
+    color: aqua;
+    font-size: 260%;
+    margin-top: 20px;
+    text-align: center;
+}
+.Botones{
+    
+}
+.contenido{
+    font-size: 130%;    
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.contenidoFinal{
+    font-size: 130%;    
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.contenido a{
+    color: rgba(0, 248, 248, 0.61);
+}
+#Boton{
+    align-items: flex-start;
+    background-color: rgb(206, 90, 90);;
+    border: none;
+    padding: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 100%;
+    margin-top: 2%;
+    border-radius: 8px;
+    width: 20%;
+}
+#Boton:hover{
+    background-color: aqua;
+    border-radius: 8px;
+    transition: ease-in .3s;
+}
+#BotonDos{
+    background-color: rgb(107, 171, 245);;
+    border: none;
+    padding: 10px;
+    font-size: 100%;
+    margin-top: 2%;
+    border-radius: 8px;
+    width: 20%;
+}
+#BotonDos:hover{
+    background-color: aqua;
+    border-radius: 8px;
+    transition: ease-in .3s;
+}
+#textBoton{
+    color: black;
+    text-decoration-line: none;
+    font-size: 90%;
+    padding: 15px;
+}
+.portfolio{
+    width: 100%;
+    color: #fff;
+}
+.portfolio-headings{
+    width: 100%;
+    padding: 5em;
+}
+.portfolio-headings h2{
+    font-size: 280%;
+}
+.portfolio .contenedor{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 480px;
+    background-color: rgb(16, 30, 75);
+    margin: 1em;
+}
+.card__img{
+    width: 100%;
+    height: 170px;
+    background-image: url(../img/hotel.jpg);
+    background-size: cover;
+}
+.card__img-dos{
+    width: 100%;
+    height: 170px;
+    background-image: url(../img/Logotipo.png);
+    background-size: cover;
+}
+.card__img-tres{
+    width: 100%;
+    height: 170px;
+    background-image: url(../img/Logo.png);
+    background-size: cover;
+}
+.card__title{
+    color: aqua;
+    padding: 20px;
+    font-size: 120%;
+}
+.card__title p{
+    font-size: 95%;
+    margin-top: 4%;
+    color: #fff;
+}
+.card__projects-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card__projects-links a{
+    color: #fff;
+    text-decoration: none;
+}
+.card__projects-links i{
+    font-size: 1.5em;
+}
+.card .project-details{
+   margin: 0 auto;
+   width: 70%;
+   margin: 1em;
+}
+.card .project-details a{
+    text-decoration: none;
+    color: #191c32;
+    text-transform: uppercase;
+}
+.proyect-details-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+.form{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    color: #191c32;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+.form__container{
+    width: 50%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+    margin-left: 25%;
+}
+.form__title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 1.4em;
+}
+.form__input{
+    font-size: 1rem;
+    padding: .8em 1em;
+    border-radius: 0.2em ;
+}
+.form__input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+.form__cta{
+    background-color: #089FE0;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .7em 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+@media (max-width:450px){
+    .form{
+        padding: 3.5em 1em;
+    }
+}

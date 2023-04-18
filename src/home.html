@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css" >
+    <link rel="stylesheet" href="../styles/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/Marca.png">
+    <title>Inicio</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>N<span>A</span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a class="active" href="#">Inicio</a></li>
+                    <li><a href="about_me.html">Personal</a></li>
+                    <li><a href="portfolio.html">Porfolio</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main class="main">
+
+        <div class="info-content">
+            <p class="titulo">Bienvenidos</p>
+            <p class="contenido">
+                ¡Hola! Soy Nicolás Abreu, un programador junior apasionado por la tecnología y la creación de soluciones innovadoras.
+                Me especializo en desarrollo web y movil, y estoy en constante búsqueda de nuevos desafíos para seguir aprendiendo y creciendo en mi carrera.
+                <br>
+                <br>
+                En mi porfolio podrás encontrar algunos de mis proyectos más recientes, donde podrás ver mi habilidad para desarrollar aplicaciones web 
+                y móviles, manejar bases de datos y trabajar en equipo. También podrás ver que me gusta estar al tanto de las últimas tendencias tecnológicas 
+                y aplicarlas en mis proyectos para crear soluciones modernas y eficientes.
+                <br>
+                <br>
+                En mi tiempo libre, me gusta participar en comunidades de programadores, asistir a conferencias y mantenerme actualizado en todo lo relacionado 
+                con el mundo de la programación. Creo firmemente que el aprendizaje continuo es clave para tener éxito en cualquier carrera.
+                <br>
+                <br>
+                Si estás buscando un programador junior con un enfoque en la calidad del código, la eficiencia y la innovación, no dudes en contactarme. 
+                Estoy emocionado de conocer nuevos proyectos y oportunidades que me permitan crecer y seguir mejorando como profesional.<br>
+                ¡Gracias por visitar mi porfolio!
+            </p>
+            <div class="Botones">
+                <Button id="Boton"><a id="textBoton" download="Nicolás_Abreu" href="../doc/Nicolas Abreu CV.pdf">Descargar CV</a></Button>
+            </div>
+            <div class="Botones">
+                <Button id="BotonDos"><a id="textBoton" href="https://calendly.com/nicolas_abreu/30min">Agendar una reunión</a></Button>
+            </div>
+
+            <div class="chat-bar-collapsible">
+                <button id="chat-button" type="button" class="collapsible">¡Chatea con nosotros!
+                    <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+                </button>
+        
+                <div class="content">
+                    <div class="full-chat-block">
+                        <!-- Message Container -->
+                        <div class="outer-container">
+                            <div class="chat-container">
+                                <!-- Messages -->
+                                <div id="chatbox">
+                                    <h5 id="chat-timestamp"></h5>
+                                    <p id="botStarterMessage" class="botText"><span>Cargando...</span></p>
+                                </div>
+        
+                                <!-- User input box -->
+                                <div class="chat-bar-input-block">
+                                    <div id="userInput">
+                                        <input id="textInput" class="input-box" type="text" name="msg"
+                                            placeholder="Tap 'Enter' to send a message">
+                                        <p></p>
+                                    </div>
+        
+                                    <div class="chat-bar-icons">
+                                        <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                            onclick="heartButton()"></i>
+                                        <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                            onclick="sendButton()"></i>
+                                    </div>
+                                </div>
+        
+                                <div id="chat-bar-bottom">
+                                    <p></p>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </div>
+        
+        </div>
+    </main>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../scripts/responses.js"></script>
+<script src="../scripts/chat.js"></script>
+
+</html>
